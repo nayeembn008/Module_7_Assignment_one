@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nayeem's portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="assets/developer.png" type="image/x-icon" />
   </head>
   <body>
     <!-- Header starts here -->
     <header class="navigation">
-      <nav>
-        <div class="logo">
+      <nav class="navigation-content">
+        <div id="logo">
           <p>Nayeem Bin Noor</p>
         </div>
         <div class="resume">
@@ -22,14 +23,17 @@
     <!-- Main starts here -->
     <main>
       <!-- Hero starts here -->
-      <section class="Hero">
+      <section class="hero">
         <div class="hero-content">
           <img
+            class="hero-image"
             src="assets/developer.png"
             alt="Developer writing code in laptop"
           />
-          <h1>"In the near future, I hope to become a Developer."</h1>
-          <p>
+          <h1 class="hero-title font-dark-1">
+            "In the near future, I hope to become a Developer."
+          </h1>
+          <p class="hero-subcopy font-dark-2 regular">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -37,6 +41,89 @@
         </div>
       </section>
       <!-- Hero ends here -->
+      <!-- Why web development starts here-->
+      <section class="development bg-2">
+        <div class="development-container">
+          <div class="development-copy">
+            <h2 class="development-title font-dark-1">Why Web Development??</h2>
+            <p class="font-dark-2 regular">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+          <div class="development-contents">
+            <div class="development-content-1">
+              <div class="development-content-copy">
+                <h3 class="development-content-title font-dark-2">
+                  I will Do Coding and Change The World
+                </h3>
+                <p class="font-dark-2 regular">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="" class="btn-secondary-small">Learn more</a>
+              </div>
+              <div class="development-content-image">
+                <img src="assets/coding.png" alt="" />
+              </div>
+            </div>
+            <div class="development-content-2">
+              <div class="development-content-image">
+                <img src="assets/help-people.png" alt="" />
+              </div>
+              <div class="development-content-copy">
+                <h3 class="development-content-title font-dark-2">
+                  I will help People by creating Modern Web System
+                </h3>
+                <p class="font-dark-2 regular">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="" class="btn-secondary-small">Learn more</a>
+              </div>
+            </div>
+            <div class="development-content-3">
+              <div class="development-content-copy">
+                <h3 class="development-content-title font-dark-2">
+                  I will help People by creating Modern Web System
+                </h3>
+                <p class="font-dark-2 regular">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="" class="btn-secondary-small">Learn more</a>
+              </div>
+              <div class="development-content-image">
+                <img src="assets/change-the-world.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Why web development ends here-->
+      <!-- My inspiration starts here-->
+      <section class="inspiration">
+        <div class="inspiration-container">
+          <div class="inspiration-content">
+            <h2 class="hero-title font-dark-1">My Inspiration</h2>
+            <p class="hero-subcopy font-dark-2 regular">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+          <div class="inspiration-video">
+            <iframe
+              src="https://www.youtube.com/embed/DGHn2uOAVCE?si=d9kcvBHhER6Sb4_o"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- My inspiration ends here-->
     </main>
     <footer></footer>
   </body>

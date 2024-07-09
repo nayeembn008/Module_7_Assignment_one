@@ -13,7 +13,7 @@ body {
   font-family: "Azeret Mono", monospace;
 }
 
-/* Shared style */
+/* Shared typography style */
 h1 {
   font-size: 48px;
   line-height: 68px;
@@ -40,6 +40,44 @@ h3.extrabold {
   font-weight: 800;
 }
 
+p.regular {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Shared font color style */
+.font-dark-1 {
+  color: rgba(13, 19, 33, 1);
+}
+
+.font-dark-2 {
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.font-dark-3 {
+  color: rgba(13, 19, 33, 0.4);
+}
+
+.font-light-1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.font-light-2 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Shared bg color */
+.bg-1 {
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.bg-2 {
+  background: rgba(13, 19, 33, 0.02);
+}
+
+/* Shared button style */
 .btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -68,6 +106,19 @@ h3.extrabold {
   line-height: normal;
 }
 
+.btn-secondary-small {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: rgba(13, 19, 33, 0.7);
+  padding: 12px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.7);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .btn-link {
   color: #0d1321;
   font-size: 16px;
@@ -81,6 +132,142 @@ h3.extrabold {
 .navigation {
   max-width: 1140px;
   margin: 0 auto;
-  border: 2px solid red;
   height: 131px;
+}
+
+.navigation-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 131px;
+}
+
+#logo {
+  color: #0d1321;
+  font-size: 28px !important;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* Header styles here */
+.hero {
+  height: 652px;
+  background: url("../assets/Hero-bg.png");
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 74px;
+}
+
+.hero-content {
+  width: 998px;
+  text-align: center;
+}
+
+.hero-image {
+  margin-bottom: 32px;
+}
+
+.hero-title {
+  margin-bottom: 24px;
+}
+
+.hero-subcopy {
+  margin-bottom: 32px;
+}
+
+/* Why development style here */
+.development {
+  max-width: 1140px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-bottom: 90px;
+}
+
+.development-copy {
+  width: 852px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.development-container .development-copy {
+  text-align: center;
+}
+
+.development-title {
+  margin-bottom: 24px;
+}
+
+.development-content-1 {
+  margin: 32px 97px;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.development-content-2 {
+  margin: 32px 97px;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 32px;
+}
+
+.development-content-3 {
+  padding: 48px;
+  margin: 32px 97px;
+
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.development-content-copy {
+  width: 477px;
+}
+
+.development-content-title {
+  margin-bottom: 16px;
+}
+
+.development-content-copy p {
+  margin-bottom: 32px;
+}
+
+/* Inspiration style here */
+.inspiration {
+  max-width: 1140px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.inspiration-content {
+  text-align: center;
+}
+
+.hero-subcopy {
+  margin-bottom: 48px;
+}
+
+.inspiration-video {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  width: 1076px;
+  height: 550px;
+  padding: 32px;
+}
+
+.inspiration-video iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
 }
