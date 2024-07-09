@@ -1,0 +1,86 @@
+/* Font assignment */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* Font setting */
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+/* Shared style */
+h1 {
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: auto;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h2.bold,
+h3.bold {
+  font-weight: 700;
+}
+
+h2.extrabold,
+h3.extrabold {
+  font-weight: 800;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(13, 19, 33, 1);
+  color: rgb(255, 255, 255);
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: rgba(13, 19, 33, 1);
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 1);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-link {
+  color: #0d1321;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+/* Navigation styles here */
+.navigation {
+  max-width: 1140px;
+  margin: 0 auto;
+  border: 2px solid red;
+  height: 131px;
+}
