@@ -56,6 +56,12 @@ p.regular {
   font-weight: 400;
   line-height: 26px;
 }
+p.large {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
 
 /* Shared font color style */
 .font-dark-1 {
