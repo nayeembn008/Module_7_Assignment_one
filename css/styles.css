@@ -212,9 +212,9 @@ p.regular {
   max-width: 1140px;
   margin: 0 auto;
   border-radius: 16px;
-  margin-bottom: 90px;
   padding-top: 80px;
   padding-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 .development-copy {
@@ -335,18 +335,21 @@ p.regular {
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
   padding: 40px;
+  width: 33%;
 }
 
 .current-target-stack-2 {
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
   padding: 40px;
+  width: 33%;
 }
 
 .current-target-stack-3 {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
   padding: 40px;
+  width: 33%;
 }
 
 .stack-logo {
@@ -454,7 +457,7 @@ p.regular {
 }
 
 input[type="text"] {
-  padding: 17px 20px;
+  padding: 8px 20px;
   display: inline-block;
   width: 508px;
   border-radius: 8px;
