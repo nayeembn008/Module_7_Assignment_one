@@ -8,6 +8,16 @@
   box-sizing: content-box;
 }
 
+/* Placeholder setting */
+::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Azeret Mono";
+}
+
 /* Font setting */
 body {
   font-family: "Azeret Mono", monospace;
@@ -100,6 +110,20 @@ p.regular {
   padding: 17px 24px;
   border-radius: 8px;
   border: 1px solid rgba(13, 19, 33, 1);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn-tertiary {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: #0d1321;
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33);
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -286,7 +310,7 @@ p.regular {
 .current-target {
   max-width: 1140px;
   margin: 0 auto;
-  margin-bottom: 151px;
+  margin-bottom: 111px;
 }
 
 .current-content-title {
@@ -342,6 +366,7 @@ p.regular {
 .next-target {
   max-width: 1140px;
   margin: 0 auto;
+  margin-bottom: 49px;
 }
 
 .next-content-title {
@@ -383,4 +408,85 @@ p.regular {
 
 .next-subcopy {
   margin-bottom: 24px;
+}
+
+/* support style here */
+.support {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.support-container {
+  height: 313px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.support-content {
+  text-align: center;
+  width: 730px;
+}
+
+.support-content-title {
+  margin-bottom: 16px;
+}
+
+.support-content-subcopy {
+  width: 606px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.support-form {
+  display: flex;
+  gap: 16px;
+}
+
+input[type="text"] {
+  padding: 17px 20px;
+  display: inline-block;
+  width: 508px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Azeret Mono";
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Footer style here */
+footer {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-info-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social {
+  display: flex;
+  gap: 24px;
 }
